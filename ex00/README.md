@@ -1,5 +1,4 @@
 # ex00
-Workshop docker
 
 ```
  /$$$$$$$                        /$$$$$$
@@ -25,7 +24,7 @@ Docker permet aussi d'empaqueter avec votre application toutes ses dépendances.
 
 En gros Docker c'est un gain de temps considerable au quotidien et des soucis en moins pour la gestion d'une application pendant toutes ses phases de vies.
 
-_Sa évite que le développeur sous arch te réplique que sa marche sur son pc et que c'est pas de sa faute si sa marche pas sur les serveurs de production sous debian._
+~~Sa évite que le développeur sous arch te réplique que sa marche sur son pc et que c'est pas de sa faute si sa marche pas sur les serveurs de production sous debian.~~
 
 ## Glossaire
 - *Serveurs de production* : Serveurs accessible par les utilisateur de votre application. (Un site est une application)
