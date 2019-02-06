@@ -1,5 +1,6 @@
 # workshop-docker
-Workshop docker
+
+<center>![Image of Docker](res/docker-logo.png)</center>
 
 ```
  /$$$$$$$                        /$$$$$$
@@ -20,3 +21,6 @@ Ce workshop à pour but de vous faire découvrir Docker et ses concepts aux trav
 
 ### ex00 : Conteneurisation
 [link](ex00/README.md)
+
+## Credits
+Florian Davasse : Réalisation du guide et des exos.
