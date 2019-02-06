@@ -17,10 +17,10 @@
 Maintenant que vous savez pull et run des images, nous allons attaquer la partie réseau. Nous allons déployer un serveur nginx.
 `docker run --name some-nginx nginx`
 
-**-d** sert à détacher le conteneur (pour faire simple, il ne va pas s'afficher dans le terminal)
+- **-d** sert à détacher le conteneur (pour faire simple, il ne va pas s'afficher dans le terminal)
+- **--name** donne au nom au conteneur pour pouvoir y accéder plus facilement par la suite. (logs, gestion etc..)
 
-**--name** donne au nom au conteneur pour pouvoir y accéder plus facilement par la suite. (logs, gestion etc..)
-
+Par défaut docker va lancer l'image et vous afficher les logs de l'image, pour éviter cela, vous pouvez ajouter **-d** avant le nom de l'image.
 Une fois le serveur nginx lancer, essayer d'y accéder depuis votre navigateur en allant sur `127.0.0.1`.
 
 Rien ne se passe ? C'est normal ! Il va nous falloir publier un port.
