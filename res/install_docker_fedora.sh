@@ -5,4 +5,5 @@ dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce
 dnf install -y docker-ce docker-ce-cli containerd.io
 groupadd docker
 systemctl enable docker
+setenforce 0
 echo "C'est bon c'est install, maintenant fait la commande 'sudo usermod -aG docker TonNomD'User'."
