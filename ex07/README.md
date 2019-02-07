@@ -14,17 +14,16 @@
                                          |__/
 ```
 
-
-Maintenant que l'on connait les régles de bases pour construire un dockerfile, il faut maintenant indiquer à l'image quel commande utiliser au lancement du conteneur. Dans un dockerfile deux régle qui se ressemblent étrangement mais enfaite pas du tout.
-Je parle bien de **CMD** et **ENTRYPOINT**, pourtant ça n'aurait aucun sens d'avoir deux commandes ? Nous allons voir leurs différences.
+Maintenant que l'on connait les règles de bases pour construire un dockerfile, il faut maintenant indiquer à l'image quelle commande utiliser au lancement du conteneur. Dans un dockerfile deux règles se ressemblent étrangement.
+Je parle bien de **CMD** et **ENTRYPOINT**, pourtant ça n'aurait aucun sens d'avoir deux commandes si elles font la même chose ? Nous allons voir leur différences.
 
 ## ENTRYPOINT
 
-**ENTRYPOINT** est une régle permettant de faire passer un fichier éxécutable en argument et ainsi pouvoir permettre l'éxécution au lancement du conteneur.
+**ENTRYPOINT** déinit l'action à effectuer à chaque lancement.
  
 ## CMD
 
-La régle **CMD** elle permet de faire passer plusieurs arguments passer à l'éxécutable de l'entrypoint.
+La régle **CMD** permet de définir des arguments de base ou une commande à executer si aucun argument n'est spécifier.
 
 Pour plus d'informations : [Docker Doc](https://docs.docker.com/engine/reference/builder/)
 
