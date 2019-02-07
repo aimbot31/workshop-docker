@@ -18,7 +18,7 @@ Nous avons : Un serveur nginx et une page d'accueil, le tout accessible depuis m
 
 Que se passe-t-il si vous modifiez le fichier de l'exercice précedent ? (**faites le**)
 
-Rien. Car notre code et toutes ses dépendances on été empaqueter dans l'image que vous avez constuite. Pour pallier à ce problème, vous pouvez monter des **volumes**.
+Rien. Car notre code et toutes ses dépendances ont été empaqueter dans l'image que vous avez construite. Pour pallier ce problème, vous pouvez monter des **volumes**.
 Les **volumes** vous permettent de partager des fichiers/dossier entre votre machine et le conteneur. Il s'agit d'un **point de montage** pour le conteneur. Vous pouvez aussi faire un **volume** propre à votre conteneur afin d'avoir de la **persistance**.
 
 ## Persistance
@@ -26,6 +26,6 @@ Par défaut, votre conteneur n'a **pas de persistance**, ce qui veut dire que vo
 https://docs.docker.com/storage/volumes/
 
 ## Exercice
-Abandonner l'image que vous avez créer à l'exercice précedent, à l'aide de l'image officiel de nginx, faites en sorte que le contenu de index.html soit afficher, **même si nous le modifions**, sans avoir à effectuer de nouvelles commandes/actions.
+Abandonner l'image que vous avez créée à l'exercice précèdent, à l'aide de l'image officielle de nginx, faite en sorte que le contenu de index.html soit afficher, **même si nous le modifions**, sans avoir à effectuer de nouvelles commandes/actions.
 
-**Appelez moi une fois cet Exercice finit afin de vérifier.**
+**Appelez-moi une fois cet Exercice finit afin de vérifier.**
