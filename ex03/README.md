@@ -34,3 +34,5 @@ Comme vous pouvez le voir, il s'agit d'un enchainement d'action. Au début du fi
 
 Vous devez créer une image contenant un serveur nginx et une page index.
 *Vous pouvez vous servir du fichier index.html fournit dans le dossier.*
+
+**Appelez moi une fois cet Exercice finit afin de vérifier.**
