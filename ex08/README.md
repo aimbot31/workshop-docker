@@ -26,12 +26,12 @@ La phase de run, récupère le binaire d'éxécution depuis la phase de build po
 Pour plus d'informations : [Docker DOC Multi-stage](https://docs.docker.com/develop/develop-images/multistage-build/)
 
 ## Exercice
-Vous devrez créer un Dockerfile possédant une phase de build et éxécuter le script fourni dans le dossier `simple_script.py` à son éxécution, il va créer un fichier `output.txt`, vous devrez le récupérer et l'afficher dans la phase de run. Le but de cet exercice est de faire en sorte que l'image créee soit la plus légere possible.
+Vous devrez créer un Dockerfile possédant une phase de build et éxécuter le script fourni dans le dossier (`main.go`).
+Pour le compiler vous aurez besoin de go et d'utiliser la commande go build.
+Vous devez run le programme dans la deuxième partie du multi-stage build.
+Le but de cet exercice est de faire en sorte que l'image créee soit la plus légere possible.
+Vous pouvez aussi faire un dockerfile contenant toutes les étapes (sans multi-stage) pour comparer les tailles.
 
-Une fois terminée, votre output devrait ressembler à :
 
-![output](https://puu.sh/CItnf/bd92dd0acb.png)
-
-Observez bien la taille de l'image créer avec cette méthode et l'image créee précedemment.
-
+**N'hésitez pas à m'appeler si la notion de multi-stage ne vous semble pas familière ou que vous n'en voyez pas l'utilitée à la fin**
 **Appelez moi une fois cet Exercice finit afin de vérifier.**
