@@ -51,4 +51,4 @@ Le résultat doit être l'output suivant :
 
 ![output](https://puu.sh/CIqLS/1bee42910d.png?fbclid=IwAR3P0HBci0gBVf7OBy7gFF7SHXBlAb5RDLbZsbnGts6gX2uFR592Qf9Z9Kg)
 
-**Appelez moi une fois cet Exercice finit afin de vérifier.**
+**Appelez-moi une fois cet Exercice finit afin de vérifier.**
