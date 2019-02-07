@@ -35,7 +35,7 @@ Super ? ça sert a quoi ?
 ## RUN
 
 La régle **RUN**, va nous permettre de pouvoir executer n'importelle commande pendant la création de l'image, elle va nous servir pour pouvoir
-installer une dépendence spécifique et utilisable une fois l'image construite et le conteneur lancé.
+installer une dépendence spécifique et de l'utiliser pendant et une fois que l'image sera construite.
 
 Pour plus d'informations :
 [Docker doc COPY & RUN](https://docs.docker.com/engine/reference/builder/)
