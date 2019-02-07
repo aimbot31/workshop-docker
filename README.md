@@ -1,6 +1,6 @@
 # workshop-docker
 
-<center>![Image of Docker](./res/docker-logo.png)</center>
+<center><img src="./res/docker-logo.png"/></center>
 
 ```
  /$$$$$$$                        /$$$$$$
