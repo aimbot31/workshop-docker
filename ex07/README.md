@@ -24,7 +24,7 @@ Je parle bien de **CMD** et **ENTRYPOINT**, pourtant ça n'aurait aucun sens d'a
  
 ## CMD
 
-La régle **CMD** elle permet de faire passer plusieurs argument passer à l'éxécutable de l'entrypoint.
+La régle **CMD** elle permet de faire passer plusieurs arguments passer à l'éxécutable de l'entrypoint.
 
 Pour plus d'informations : [Docker Doc](https://docs.docker.com/engine/reference/builder/)
 
