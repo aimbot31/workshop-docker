@@ -26,8 +26,8 @@ Une fois le serveur nginx lancer, essayer d'y accéder depuis votre navigateur e
 Rien ne se passe ? C'est normal ! Il va nous falloir publier un port.
 
 ## Quel est l'interêt de publier un port ?
-Par défaut, docker isole notre conteneur du reste de la machine, sa marche aussi pour le réseau.
-Donc le serveur nginx que nous avons setup précedement, se trouve être lancer sur un réseau virtuel à part. Pour pouvoir y accéder, nous avons plusieurs possibilitées :
+Par défaut, docker isole notre conteneur du reste de la machine, ça marche aussi pour le réseau.
+Donc le serveur nginx que nous avons setup précédemment, se trouve être lancé sur un réseau virtuel à part. Pour pouvoir y accéder, nous avons plusieurs possibilités :
 - (**à éviter**) Définir le réseau à utiliser (enlève la couche d'isolation sur le réseau) : en ajoutant `--net host` à la ligne de commande du haut (**à éviter**)
 - En publiant un port qui va nous permettre d'accéder au réseau virtuel. Il suffit d'ajouter `-p port1:port2` port1 correspond au port sur votre machine, port2 correspond au port sur le reseau virtuel docker.
 
