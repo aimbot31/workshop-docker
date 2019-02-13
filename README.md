@@ -17,7 +17,7 @@
 ```
 
 ## Introduction
-Ce workshop à pour but de vous faire découvrir Docker et ses concepts aux travers de mini exos. Chaque exercice à pour but de vous faire découvrir une notion. Hésitez pas à nous soliciter si jamais l'énnoncer de l'exercice n'est pas claire ou si vous ne comprenez pas.
+Ce workshop à pour but de vous faire découvrir Docker et ses concepts aux travers de mini exos. Chaque exercice va vous faire découvrir une notion. N'hésitez pas à nous sollicité si jamais l'énoncer de l'exercice n'est pas claire ou si vous ne comprenez pas.
 
 ## Credits
 - Florian Davasse [@aimbot31](http://github.com/aimbot31) : Réalisation du guide et des exos 00 - 05 et 09.
