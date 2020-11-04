@@ -16,11 +16,15 @@
 
 Assez parler, passons à la pratique.
 
-Vous avez normalement télécharger docker, vous allez enfin pouvoir démarrer ce workshop. Le premier exercice consiste à pull une image (une image contient notre application ainsi qu'un système d'exploitation) puis à la lancer (run).
+Vous avez normalement téléchargé docker, vous allez enfin pouvoir démarrer ce
+workshop. Le premier exercice consiste à pull une image (une image contient
+notre application et peut aussi contenir un système d'exploitation)
+puis à la lancer (run).
 
 L'image à pull et à run : [Hello World](https://hub.docker.com/_/hello-world)
 
 Si tout se passe bien vous devriez voir :
+
 ```
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
